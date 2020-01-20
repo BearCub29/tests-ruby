@@ -5,7 +5,7 @@ def shout(word)
     return word.upcase
 end
 def repeat(word, x=2)
-    return "#{word} " * x
+    return [word] * x * ' '
 end
 def start_of_word(word, x)
     return word.slice(0 ,x)
